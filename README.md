@@ -38,30 +38,28 @@ movie-recommendation-system/<br/>
 │   └── App.js<br/>
 ├── server/                 # Node.js backend<br/>
 │   └── app.js/             # /register, /login, /recommend, /user-preference<br/>
-├── flask-backend/          # Flask backend<br/>
-│   └── app.py              # Handles mood & weather recommendations<br/>
+│   └── app.py/             # Handles mood & weather recommendations<br/>
 ├── datasets/<br/>
 │   ├── hollywood.csv       # MovieId, Title, Genres<br/>
 │   └── bollywood.csv       # movie_id, movie_name, genre, overview, etc.<br/>
 ├── README.md<br/>
 
 
-
 ### 1. Clone the Repo
 git clone https://github.com/your-username/movie-recommendation-system<br/>
 cd movie-recommendation-system<br/>
 
-###2. Start Flask Backend (Mood & Weather)
+### 2. Start Flask Backend (Mood & Weather)
 cd server<br/>
 pip install -r requirements.txt<br/>
 python app.py<br/>
 
-###3. Start Node Backend (Content-Based)<br/>
+### 3. Start Node Backend (Content-Based)<br/>
 cd server<br/>
 npm install<br/>
-node app.js<br/>
+node app.js <br/>
 
-###4. Start React Frontend<br/>
+### 4. Start React Frontend<br/>
 cd client<br/>
 npm install<br/>
 npm start<br/>

@@ -47,7 +47,7 @@ movie-recommendation-system/<br/>
 
 ### 1. Clone the Repo
 git clone https://github.com/your-username/movie-recommendation-system<br/>
-cd movie-recommendation-system<br/>
+cd CineSense<br/>
 
 ### 2. Start Flask Backend (Mood & Weather)
 cd server<br/>

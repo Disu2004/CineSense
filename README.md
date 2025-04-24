@@ -45,3 +45,27 @@ movie-recommendation-system/<br/>
 │   └── bollywood.csv       # movie_id, movie_name, genre, overview, etc.<br/>
 ├── README.md<br/>
 
+
+
+### 1. Clone the Repo
+git clone https://github.com/your-username/movie-recommendation-system<br/>
+cd movie-recommendation-system<br/>
+
+2. Start Flask Backend (Mood & Weather)<br/>
+cd server<br/>
+pip install -r requirements.txt<br/>
+python app.py<br/>
+
+3. Start Node Backend (Content-Based)<br/>
+cd server<br/>
+npm install<br/>
+node app.js<br/>
+
+4. Start React Frontend<br/>
+cd client<br/>
+npm install<br/>
+npm start<br/>
+
+🧑‍💻 Author
+Developed with ❤️ by Dishant Upadhyay
+© 2025 Dishant Upadhyay. All rights reserved.

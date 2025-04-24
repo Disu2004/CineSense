@@ -36,8 +36,8 @@ movie-recommendation-system/<br/>
 ├── client/                 # React frontend<br/>
 │   ├── components/         # Home.js, Content.js, Display.js, etc.<br/>
 │   └── App.js<br/>
-├── node-backend/           # Node.js backend<br/>
-│   └── routes/             # /register, /login, /recommend, /user-preference<br/>
+├── server/                 # Node.js backend<br/>
+│   └── app.js/             # /register, /login, /recommend, /user-preference<br/>
 ├── flask-backend/          # Flask backend<br/>
 │   └── app.py              # Handles mood & weather recommendations<br/>
 ├── datasets/<br/>
@@ -51,17 +51,17 @@ movie-recommendation-system/<br/>
 git clone https://github.com/your-username/movie-recommendation-system<br/>
 cd movie-recommendation-system<br/>
 
-2. Start Flask Backend (Mood & Weather)<br/>
+###2. Start Flask Backend (Mood & Weather)
 cd server<br/>
 pip install -r requirements.txt<br/>
 python app.py<br/>
 
-3. Start Node Backend (Content-Based)<br/>
+###3. Start Node Backend (Content-Based)<br/>
 cd server<br/>
 npm install<br/>
 node app.js<br/>
 
-4. Start React Frontend<br/>
+###4. Start React Frontend<br/>
 cd client<br/>
 npm install<br/>
 npm start<br/>

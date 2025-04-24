@@ -32,16 +32,4 @@ A smart movie recommendation system that combines:
 ---
 
 ## 📁 Folder Structure
-  movie-recommendation-system/
-  ├── client/                 # React frontend
-  │   ├── components/         # Home.js, Content.js, Display.js, etc.
-  │   └── App.js
-  ├── node-backend/           # Node.js backend
-  │   └── routes/             # /register, /login, /recommend, /user-preference
-  ├── flask-backend/          # Flask backend
-  │   └── app.py              # Handles mood & weather recommendations
-  ├── datasets/
-  │   ├── hollywood.csv       # MovieId, Title, Genres
-  │   └── bollywood.csv       # movie_id, movie_name, genre, overview, etc.
-  ├── README.md
-
+<pre><code>## 📁 Folder Structure <code>movie-recommendation-system/</code> ├── <strong>client/</strong>                   # React frontend │   ├── <strong>components/</strong>          # Home.js, Content.js, Display.js, etc. │   └── <strong>App.js</strong> ├── <strong>node-backend/</strong>             # Node.js backend │   └── <strong>routes/</strong>              # /register, /login, /recommend, /user-preference ├── <strong>flask-backend/</strong>            # Flask backend │   └── <strong>app.py</strong>               # Handles mood & weather recommendations ├── <strong>datasets/</strong> │   ├── <strong>hollywood.csv</strong>        # MovieId, Title, Genres │   └── <strong>bollywood.csv</strong>        # movie_id, movie_name, genre, overview, etc. ├── <strong>README.md</strong> </code></pre>

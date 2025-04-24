@@ -64,6 +64,6 @@ cd client<br/>
 npm install<br/>
 npm start<br/>
 
-🧑‍💻 Author
-Developed with ❤️ by Dishant Upadhyay and Mansi Dhandha
+🧑‍💻 Author<br/>
+Developed with ❤️ by Dishant Upadhyay and Mansi Dhandha<br/>
 © 2025 Dishant Upadhyay. All rights reserved.
